@@ -13,7 +13,7 @@ namespace FibonacciNumbers
             Console.WriteLine("Welcome! This program will write as much Fibonacci numbers as you want :)");
 
             
-            ulong[] fib = new ulong[10000]; //This array contains our Fibonacci numbers.
+            ulong[] fib = new ulong[500]; //This array contains our Fibonacci numbers.
             fib[1] = 1; //First fibonacci number is 0 so second has to be 1 :)
 
             int howMuch; //This variable is used to contain information about how much numbers program should print.
